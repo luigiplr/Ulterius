@@ -13,7 +13,6 @@ class ServerEmitter extends EventEmitter {
         super();
         this.client = new WebSocketClient();
 
-
         this.client.on('connectFailed', error => this.emit('failed', error));
 
         this.client.on('connect', connection => {
@@ -33,4 +32,11 @@ class ServerEmitter extends EventEmitter {
         this.client.connect(...props);
     }
 
+
+
+
+
 }
+
+
+export default ServerEmitter;
