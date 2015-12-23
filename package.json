@@ -35,6 +35,7 @@
     "request-progress": "^0.4.0",
     "universal-analytics": "^0.3.10",
     "uuid": "^2.0.1",
+    "websocket": "^1.0.22",
     "yargs": "^3.31.0"
   },
   "devDependencies": {

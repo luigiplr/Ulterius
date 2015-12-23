@@ -37,6 +37,7 @@ default React.createClass({
         return (
             <aside className="sidebar">
                 <ul>
+                    <h1>Main</h1>
                     {
                         this.state.tabs.map((tab, idx) => {
                             return (
