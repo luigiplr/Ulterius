@@ -6,8 +6,6 @@ import {
 }
 from 'electron';
 import yargs from 'yargs';
-import tray from './tray';
-
 
 const args = yargs(process.argv.slice(1)).wrap(100).argv;
 var minimzeInfoShown = false;
@@ -23,7 +21,7 @@ app.on('ready', () => {
         resizable: true,
         backgroundColor: '#202B33',
         icon: path.join(__dirname, '../images/icon.png'),
-        title: 'Slakie',
+        title: 'Ulterius',
         center: true,
         frame: false,
         show: false

@@ -20,10 +20,10 @@ default React.createClass({
                 path: '/'
             }, {
                 name: 'Network',
-                path: '/'
+                path: '/network'
             }, {
                 name: 'Incidents',
-                path: '/'
+                path: '/incidents'
             }]
         };
     },

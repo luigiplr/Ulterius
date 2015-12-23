@@ -31,8 +31,12 @@ default React.createClass({
     },
     render() {
         return (
-            <div className="col-lg-12">
-               
+            <div className="page">
+                <section>
+                    <div>
+                        <canvas id="canvas" height="450" width="600"/>
+                    </div>
+                </section>
             </div>
         );
     }

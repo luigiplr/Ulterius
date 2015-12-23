@@ -47,9 +47,11 @@ const Framework = React.createClass({
     render() {
         return (
             <div>
-              <Header />
-              <Sidebar />
-              {React.cloneElement(this.props.children, {query: this.props.query})}
+                <Header />
+                <div className="main">
+                    <Sidebar />
+                    {React.cloneElement(this.props.children, {query: this.props.query})}
+                </div>
             </div>
         );
     }

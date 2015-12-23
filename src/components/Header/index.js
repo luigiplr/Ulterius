@@ -42,7 +42,7 @@ default React.createClass({
                         <i></i>
                     </div>
                 </div>
-                <h1>Slakie</h1>
+                <h1>Ulterius</h1>
             </header>
         );
     }

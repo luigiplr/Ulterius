@@ -1,16 +1,15 @@
 .sidebar {
+    left: 0;
     height: 100%;
     position: fixed;
-    width: 190px;
-    padding-left: 20px;
-    background-color: #f1f1f1;
+    width: 200px;
+    padding-left: 30px;
 }
 
 .sidebar h1 {
     font-weight: 400;
     font-size: 15px;
-    margin-bottom: 15px;
-    color: #262626;
+    margin-bottom: 15px
 }
 
 .sidebar h1:first-of-type {
@@ -24,7 +23,7 @@
 .sidebar ul li {
     list-style: none;
     margin-bottom: 10px;
-    color: #444444;
+    color: #5B6874;
     cursor: pointer;
     font-size: 14px;
     height: 20px;
@@ -33,7 +32,7 @@
 }
 
 .sidebar ul li.active {
-    color: #0173c7;
+    color: #239ae3;
 }
 
 .sidebar ul li i {

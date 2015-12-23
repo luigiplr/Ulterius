@@ -3,7 +3,6 @@ header {
     position: fixed;
     width: 100vw;
     -webkit-app-region: drag;
-    background-color: #0173c7;
 }
 
 header .controls.win32 div {
@@ -54,7 +53,7 @@ header .controls.win32 div.toggle i:first-of-type {
     margin-left: 19px;
     margin-top: 10px;
     z-index: 2;
-    background-color: #0173c7;
+    background-color: #202B33;
 }
 
 header .controls.win32 div.toggle i:nth-of-type(2) {
