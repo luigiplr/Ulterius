@@ -23,6 +23,7 @@
     "electron-cookies": "^1.1.0",
     "history": "^1.13.1",
     "is-online": "^5.0.1",
+    "local-storage": "^1.4.2",
     "lodash": "^3.10.1",
     "node-notifier": "^4.4.0",
     "node-uuid": "^1.4.7",
