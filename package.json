@@ -1,0 +1,64 @@
+{
+  "name": "Ulterius",
+  "version": "0.0.0",
+  "author": "Luigi Poole",
+  "description": "",
+  "homepage": "https://github.com/luigiplr/ulterius",
+  "main": "js/browser.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luigiplr/ulterius.git"
+  },
+  "bugs": "https://github.com/luigiplr/ulterius/issues",
+  "scripts": {
+    "start": "grunt",
+    "release": "grunt release"
+  },
+  "electron-version": "0.36.1",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "alt": "^0.17.9",
+    "async": "^1.5.0",
+    "bluebird": "^3.1.1",
+    "electron-cookies": "^1.1.0",
+    "history": "^1.13.1",
+    "is-online": "^5.0.1",
+    "lodash": "^3.10.1",
+    "node-notifier": "^4.4.0",
+    "node-uuid": "^1.4.7",
+    "react": "^0.14.3",
+    "react-addons-pure-render-mixin": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-mousetrap": "0.0.6",
+    "react-router": "^1.0.2",
+    "universal-analytics": "^0.3.10",
+    "uuid": "^2.0.1",
+    "yargs": "^3.31.0"
+  },
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babel-plugin-transform-merge-sibling-variables": "^6.3.13",
+    "babel-plugin-transform-minify-booleans": "^6.3.13",
+    "babel-plugin-transform-property-literals": "^6.3.13",
+    "babel-plugin-transform-simplify-comparison-operators": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^6.0.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-compress": "^0.14.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-watch-chokidar": "^1.0.0",
+    "grunt-electron": "^2.0.1",
+    "grunt-newer": "^1.1.1",
+    "grunt-npm-command": "^0.1.0",
+    "grunt-sass": "^1.1.0",
+    "grunt-shell": "^1.1.2",
+    "grunt-shell-spawn": "^0.3.10",
+    "load-grunt-tasks": "^3.4.0"
+  },
+  "optionalDependencies": {
+    "electron-prebuilt": "0.36.1"
+  }
+}

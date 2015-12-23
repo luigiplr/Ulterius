@@ -1,0 +1,38 @@
+.teams {
+    top: 30px;
+    height: calc(100vh - 30px);
+    width: 80px;
+    position: absolute;
+}
+
+.teams .team {
+    margin: 15px;
+    background-image: url("../images/magics.jpg");
+    height: 45px;
+    border-radius: 4px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.teams .add{
+    bottom: 0;
+    position: absolute;
+    height: 45px;
+    margin: 15px;
+    width: 50px;
+    background-color: rgba(240, 248, 255, 0.12);
+    
+    border-radius: 4px;
+    
+}
+
+.teams .add i {
+    font-size: 25px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+    
+    
+}
